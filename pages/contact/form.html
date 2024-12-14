@@ -1,0 +1,53 @@
+<div class="container">
+
+    <h1 class="text-center mt-5">Contact &amp; devis</h1>
+
+    <h2 class="text-center mt-5">Faites-nous part de vos besoins</h2>
+
+    <form action="/contact/send/index.php" method="post" class="mt-5">
+        <div class="my-3">
+            <label for="name" class="form-label">Votre nom</label>
+            <input type="text" class="form-control" name="name" id="name" value="{name}" maxlength="255" required>
+        </div>
+    
+        <div class="my-3">
+            <label for="society" class="form-label">Votre entreprise</label>
+            <input type="text" class="form-control" name="society" id="society" value="{society}" maxlength="255">
+        </div>
+
+        <div class="my-3">
+            <label for="mail" class="form-label">Adresse mail</label>
+            <input type="email" class="form-control" name="mail" id="mail" value="{mail}" maxlength="255" required>
+        </div>
+
+        <div class="my-3">
+            <label for="phone" class="form-label">Téléphone</label>
+            <input type="tel" class="form-control" name="phone" id="phone" value="{phone}" maxlength="100" required>
+        </div>
+
+        <div class="my-3">
+            <label for="subject">Objet de votre demande</label>
+            <select name="subject" id="subject" class="form-control" required>
+                <option>Demande de devis ou de tarif</option>
+                <option>Question relative à vos services</option>
+                <option>Autre demande</option>
+            </select>
+        </div>
+
+        <div class="my-3">
+            <label for="message" class="form-label">Votre demande</label>
+            <textarea class="form-control" name="message" id="message" rows="8" maxlength="5000" required>{message}</textarea>
+        </div>
+
+        <div class="my-3 text-center">
+            <button type="submit" class="btn btn-primary btn-lg" name="send" value="send">Envoyer</button>
+        </div>
+    </form>
+
+    <h2 class="text-center mt-5">Nous contacter directement</h2>
+    <div class="fs-5 text-center mt-5">
+        <p>Si vous préférez discuter directement avec notre équipe, nous sommes joignables par téléphone :</p>
+        <p><strong>📞 +41 79 574 34 35</strong><br><strong>📞 +41 79 572 77 21</strong></p>
+        <p><strong>Nos horaires :</strong><br> Lundi - Vendredi : 08h00 - 18h00<br> Samedi : 09h00 - 13h00</p>
+    </div>
+</div>
