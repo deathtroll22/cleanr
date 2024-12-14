@@ -5,17 +5,16 @@ namespace App;
 class Page {
 
     public ?string $title = null;
-
+    public ?string $description = null; // Ajout de la description
+    public ?string $keywords = null; // Ajout des mots-clés
     public ?string $content = null;
-
     public string $structure = "structure.php";
-
     public ?array $variables = [];
 
     public function __construct(array $configOptions = null)
     {
         if ($configOptions) {
-            $props = ["title", "content", "structure", "variables"];
+            $props = ["title", "content", "structure", "variables", "description", "keywords"];
 
             foreach ($props as $key) {
                 if (isset($configOptions[$key])) {
@@ -47,6 +46,11 @@ class Page {
         $page = $this;
 
         $page->content = $content;
+
+        // Passe les métadonnées à la structure pour qu'elles soient accessibles dans la vue
+        $page->title = $this->title;
+        $page->description = $this->description;
+        $page->keywords = $this->keywords;
         
         include(__DIR__ . "/../template/".$this->structure);
     }

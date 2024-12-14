@@ -18,4 +18,8 @@ $page = new Page([
     "variables" => $form_content
 ]);
 
+$page->description = "Contactez Clean R & Renovation pour un devis gratuit. Remplissez notre formulaire ou appelez-nous directement au +41 79 574 34 35. Services de nettoyage professionnel en Suisse romande et Grand Genève.";
+$page->keywords = "contact Clean R, devis nettoyage, formulaire contact, devis gratuit nettoyage Genève, nettoyage professionnel, Suisse romande, Grand Genève";
+
 $page->setContentFromFile("../pages/contact/form.html")->render();
+?>
