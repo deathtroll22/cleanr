@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /services/
+Disallow: /mentions-legales/
 Disallow: /pages/
 Disallow: /assets/style.css
 Disallow: /assets/carousel.css
