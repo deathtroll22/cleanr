@@ -1,7 +1,7 @@
 <footer class="site-footer">
 
     <div class="footer-partners mt-4 section-dark text-center">
-        <img src="/assets/wave-dark-top.svg" class="img-fluid d-block img-wave-divider">
+        <img src="/assets/wave-dark-top.svg" alt="Vague" class="img-fluid d-block img-wave-divider">
         <div class="container">
             <img src="/assets/partners/burger-king.svg" alt="Burger King" class="partner-image">
             <h2 class="text-white">Burger King<br>Partenaire exclusif de Clean R</h2>
