@@ -8,8 +8,7 @@ $page = new Page([
     "title" => "Prestations / Nettoyage professionnel"
 ]);
 
-$page->description = "Clean R & Rénovation offre des services de nettoyage professionnel pour locaux commerciaux, industriels et tertiaires. Nettoyage après travaux, désinfection, entretien des sols et surfaces.";
+$page->description = "Clean R & Rénovation : nettoyage professionnel de locaux commerciaux, industriels, tertiaires. Après travaux, désinfection, entretien des sols et surfaces.";
 $page->keywords = "nettoyage professionnel, nettoyage après travaux, désinfection locaux, entretien surfaces, nettoyage sols, nettoyage vitres, nettoyage industriel, nettoyage bureaux, Suisse romande, Genève";
-
 $page->setContentFromFile("../../pages/prestations/nettoyage-professionnel.html")->render();
 ?>

@@ -6,7 +6,7 @@ use App\Page;
 
 $page = new Page([
     "title" => "Clean R & Rénovation | Nettoyage de hottes et cuisines professionnelles en Suisse romande",
-    "description" => "Clean R & Rénovation, votre spécialiste du nettoyage de hottes et cuisines professionnelles dans le Grand Genève et toute la Suisse romande. Qualité garantie, techniciens certifiés et tarifs transparents.",
+"description" => "Clean R & Rénovation, expert en nettoyage de hottes et cuisines pro en Suisse romande et Grand Genève. Qualité garantie, tarifs transparents.",
     "keywords" => "nettoyage hottes Genève, dégraissage professionnel, nettoyage cuisines industrielles, hygiène cuisine restaurant, Suisse romande, Genève, Lausanne, Carouge, Annemasse, normes sécurité alimentaire"
 ]);
 
